@@ -1,6 +1,6 @@
-# Project Documentation Template
+## Documentation
 
-Brief description
+Getting-started guidance, feature details, and API reference documentation.
 
 ## License
 
