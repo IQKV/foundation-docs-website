@@ -5,7 +5,9 @@ Getting-started guidance, feature details, and API reference documentation.
 ### Getting Started
 
 > [!TIP]
+>
 > #### Install Prerequisites:
+>
 > - [Node LTS version](https://nodejs.org/en/blog/release/v22.15.0/)
 > - [pnpm](https://pnpm.io/installation)
 > - [Git](https://git-scm.com/)
