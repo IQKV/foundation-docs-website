@@ -2,11 +2,14 @@
 
 Getting-started guidance, feature details, and API reference documentation.
 
-### Preretirement
-
-The latest lts for node js and pnpm were installed.
-
 ### Getting Started
+
+> [!TIP]
+> #### Install Prerequisites:
+> - [Node LTS version](https://nodejs.org/en/blog/release/v22.15.0/)
+> - [Git](https://git-scm.com/)
+> - [Docker](https://www.docker.com/get-started/)
+> - [Docker Compose](https://docs.docker.com/compose/)
 
 ```bash
 # Clone the repository
