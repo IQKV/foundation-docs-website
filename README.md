@@ -32,7 +32,6 @@ pnpm docs:dev
 | \`pnpm prettier:write\` | Run Prettier over the code |
 | \`pnpm lint\`           | Lint code                  |
 
-
 ## 📑 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
