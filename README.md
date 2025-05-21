@@ -41,7 +41,7 @@ pnpm docs:dev
 --- 
 
 <a name="changelog"></a>
-## 📆 Release Notes
+## 📆 Changelog
 
 Can be found in [CHANGELOG](CHANGELOG.md).
 
