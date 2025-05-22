@@ -4,4 +4,3 @@ next: false
 ---
 
 # Contributing Guide
-
