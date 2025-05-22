@@ -8,11 +8,17 @@ hero:
   tagline: Headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Project Overview
+      link: /overview
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Requirements
+      link: /requirements
+    - theme: alt
+      text: Support
+      link: /support
+    - theme: alt
+      text: Contributing Guide
+      link: /contributing
 
 features:
   - title: Feature A
