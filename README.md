@@ -54,7 +54,7 @@ Conventional changelog located [here](CHANGELOG.md).
 
 <a name="contributing"></a>
 
-## 🙏 Contributing
+## 🙏 Community & Contributions
 
 Please, follow [Contributing](.github/CONTRIBUTING.md) page.
 
