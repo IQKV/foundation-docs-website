@@ -50,6 +50,13 @@ pnpm docs:dev
 | \`pnpm prettier:write\` | Run Prettier over the code |
 | \`pnpm lint\`           | Lint code                  |
 
+
+### Environment Variables
+
+| Variable   | Description                | Default       |
+| ---------- | -------------------------- | ------------- |
+| `NODE_ENV` | Defines nodejs environment | `development` |
+
 ---
 
 <a name="changelog"></a>
