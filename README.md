@@ -50,7 +50,6 @@ pnpm docs:dev
 | \`pnpm prettier:write\` | Run Prettier over the code |
 | \`pnpm lint\`           | Lint code                  |
 
-
 ### Environment Variables
 
 | Variable   | Description                | Default       |
