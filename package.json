@@ -11,7 +11,8 @@
     "lint": "pnpm prettier:check",
     "prepare": "husky",
     "prettier:check": "prettier . --check",
-    "prettier:write": "prettier . --write"
+    "prettier:write": "prettier . --write",
+    "node_modules:clear": "rm -rf node_modules"
   },
   "config": {
     "commitizen": {
@@ -27,7 +28,6 @@
     "dotenv": "^16.5.0",
     "glob": "^11.0.3",
     "husky": "9.1.7",
-    "lerna": "^8.2.2",
     "lint-staged": "^16.1.2",
     "prettier": "3.6.1",
     "prettier-plugin-packagejson": "2.5.16",
