@@ -42,13 +42,13 @@ pnpm docs:dev
 
 ### Available Scripts
 
-| Command                 | Description                |
-| ----------------------- | -------------------------- |
-| \`pnpm docs:dev\`       | Start development server   |
-| \`pnpm docs:build\`     | Build for production       |
-| \`pnpm docs:preview\`   | Preview production build   |
-| \`pnpm prettier:write\` | Run Prettier over the code |
-| \`pnpm lint\`           | Lint code                  |
+| Command               | Description                |
+| --------------------- | -------------------------- |
+| `pnpm docs:dev`       | Start development server   |
+| `pnpm docs:build`     | Build for production       |
+| `pnpm docs:preview`   | Preview production build   |
+| `pnpm prettier:write` | Run Prettier over the code |
+| `pnpm lint`           | Lint code                  |
 
 ### Environment Variables
 
