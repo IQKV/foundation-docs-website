@@ -9,7 +9,9 @@
 > - To start using it, click **[Use this template](https://github.com/dimdnk/standard-docs-vitepress-project-layout/generate)** to create your new repository.
 
 ---
+
 <!-- CUT HERE -->
+
 # ✨ Documentation
 
 Getting-started guidance, feature details, and API reference documentation.
@@ -92,43 +94,48 @@ Please, follow [Code of Conduct](.github/CODE_OF_CONDUCT.md) page.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-<!-- CUT HERE -->
----
+## <!-- CUT HERE -->
 
 ## Project Tooling & Workflow
 
 ### **Core Framework & Build Tools**
+
 - **VitePress** `1.6.3` - Static site generator for documentation
 - **Vue** `^3.5` - Frontend framework
 - **pnpm** - Package manager with workspace support
 
 ### **Development Scripts**
-| Command | Description |
-|---------|-------------|
-| `pnpm docs:dev` | Start development server |
-| `pnpm docs:build` | Build for production |
-| `pnpm docs:preview` | Preview production build |
-| `pnpm prettier:write` | Format code with Prettier |
-| `pnpm lint` | Lint code (prettier check) |
-| `pnpm release` | Create release with release-it |
+
+| Command               | Description                    |
+| --------------------- | ------------------------------ |
+| `pnpm docs:dev`       | Start development server       |
+| `pnpm docs:build`     | Build for production           |
+| `pnpm docs:preview`   | Preview production build       |
+| `pnpm prettier:write` | Format code with Prettier      |
+| `pnpm lint`           | Lint code (prettier check)     |
+| `pnpm release`        | Create release with release-it |
 
 ### **Code Quality & Formatting**
+
 - **Prettier** `3.6.1` - Code formatting with packagejson plugin
 - **Lint-staged** `16.1.2` - Run linters on staged files
 - **EditorConfig** - Consistent editor settings
 
 ### **Git Workflow & Automation**
+
 - **Husky** `9.1.7` - Git hooks management
 - **Commitlint** `19.5.0` - Enforce conventional commits
 - **Commitizen** `3.3.0` - Interactive commit message generator
 - **Pre-commit hooks** - Automatic code formatting before commits
 
 ### **Release Management**
+
 - **Release-it** `19.0.2` - Automated release workflow
 - **Conventional Changelog** `10.0.1` - Generate changelog from commits
 - **Release-it-pnpm** `4.6.6` - pnpm integration for releases
 
 ### **GitHub Workflow Automation**
+
 - **Build validation** - Node.js project build checks
 - **PR title validation** - Enforce conventional PR titles
 - **Commit message validation** - Verify commit format
@@ -136,6 +143,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Dependabot** - Automated dependency updates
 
 ### **Community & Documentation**
+
 - **Issue templates** (7 templates) - Standardized issue reporting
 - **Issue labels** (20 labels) - Organized issue categorization
 - **Community health files** - Contributing, CoC, Security, Support guides
