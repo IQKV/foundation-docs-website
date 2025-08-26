@@ -28,7 +28,7 @@ Getting-started guidance, feature details, and API reference documentation.
 > - [Docker](https://www.docker.com/get-started/)
 > - [Docker Compose](https://docs.docker.com/compose/)
 
-```bash
+```shell script
 # Clone the repository
 git clone https://github.com/dimdnk/standard-docs-vitepress-project-layout.git my-docs
 
@@ -76,13 +76,13 @@ Conventional changelog located [here](CHANGELOG.md).
 
 ## 🙏 Community & Contributions
 
-Please, follow [Contributing](.github/CONTRIBUTING.md) page.
+Please follow [Contributing](.github/CONTRIBUTING.md) page.
 
 <a name="codeofconduct"></a>
 
 ## 📙 Code of Conduct
 
-Please, follow [Code of Conduct](.github/CODE_OF_CONDUCT.md) page.
+Please follow [Code of Conduct](.github/CODE_OF_CONDUCT.md) page.
 
 <a name="troubleshooting"></a>
 
@@ -96,12 +96,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## <!-- CUT HERE -->
 
-## Project Tooling & Workflow
+## _GitHub Project Tooling Overview_
 
 ### **Core Framework & Build Tools**
 
-- **VitePress** `1.6.3` - Static site generator for documentation
-- **Vue** `^3.5` - Frontend framework
+- **VitePress** - Static site generator for documentation
+- **Vue** - Frontend framework
 - **pnpm** - Package manager with workspace support
 
 ### **Development Scripts**
@@ -117,22 +117,22 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### **Code Quality & Formatting**
 
-- **Prettier** `3.6.1` - Code formatting with packagejson plugin
-- **Lint-staged** `16.1.2` - Run linters on staged files
+- **Prettier** - Code formatting with packagejson plugin
+- **Lint-staged** - Run linters on staged files
 - **EditorConfig** - Consistent editor settings
 
 ### **Git Workflow & Automation**
 
-- **Husky** `9.1.7` - Git hooks management
-- **Commitlint** `19.5.0` - Enforce conventional commits
-- **Commitizen** `3.3.0` - Interactive commit message generator
+- **Husky** - Git hooks management
+- **Commitlint** - Enforce conventional commits
+- **Commitizen** - Interactive commit message generator
 - **Pre-commit hooks** - Automatic code formatting before commits
 
 ### **Release Management**
 
-- **Release-it** `19.0.2` - Automated release workflow
-- **Conventional Changelog** `10.0.1` - Generate changelog from commits
-- **Release-it-pnpm** `4.6.6` - pnpm integration for releases
+- **Release-it** - Automated release workflow
+- **Conventional Changelog** - Generate changelog from commits
+- **Release-it-pnpm** - pnpm integration for releases
 
 ### **GitHub Workflow Automation**
 
