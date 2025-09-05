@@ -27,7 +27,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/IQKV/standard-docs-vitepress-project-layout",
+        link: "https://github.com/dimdnk/standard-docs-vitepress-project-layout",
       },
     ],
   },
