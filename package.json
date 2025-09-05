@@ -1,5 +1,5 @@
 {
-  "name": "@iqkv/standard-docs-vitepress-project-layout",
+  "name": "@know-how/standard-docs-vitepress-project-layout",
   "version": "25.0.0",
   "description": "Project documentation powered by Vitepress.",
   "type": "module",
