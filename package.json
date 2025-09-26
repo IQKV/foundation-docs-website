@@ -10,7 +10,7 @@
     "lint": "pnpm prettier:check",
     "node_modules:clear": "rm -rf node_modules",
     "prepare": "husky",
-    "prettier:check": "prettier . --check",
+    "prettier:check": "prettier . --check --ignore-unknown",
     "prettier:write": "prettier . --write",
     "release": "release-it --ci"
   },
