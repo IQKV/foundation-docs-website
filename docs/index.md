@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "KnowHowToDev"
+  name: "IQKV Foundation"
   text: "Free, open-source, modern Java platform"
   tagline: Headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
   actions:
