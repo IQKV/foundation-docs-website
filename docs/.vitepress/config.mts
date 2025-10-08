@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "KnowHowToDev Platform",
+  title: "IQKV Foundation",
   description:
     "Free, open-source, API-first, headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.",
   themeConfig: {
