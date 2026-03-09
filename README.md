@@ -42,13 +42,13 @@ pnpm docs:dev
 
 ### Available Scripts
 
-| Command               | Description                |
-| --------------------- | -------------------------- |
-| `pnpm docs:dev`       | Start development server   |
-| `pnpm docs:build`     | Build for production       |
-| `pnpm docs:preview`   | Preview production build   |
-| `pnpm prettier:write` | Run Prettier over the code |
-| `pnpm lint`           | Lint code                  |
+| Command               | Description                 |
+| --------------------- |-----------------------------|
+| `pnpm docs:dev`       | Start development server    |
+| `pnpm docs:build`     | Build for production        |
+| `pnpm docs:preview`   | Preview production build    |
+| `pnpm formatter:write`| Run formatter over the code |
+| `pnpm lint`           | Lint code                   |
 
 ### Environment Variables
 
@@ -101,7 +101,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 | `pnpm docs:dev`       | Start development server       |
 | `pnpm docs:build`     | Build for production           |
 | `pnpm docs:preview`   | Preview production build       |
-| `pnpm prettier:write` | Format code with Prettier      |
+| `pnpm formatter:write` | Format code with Prettier      |
 | `pnpm lint`           | Lint code (prettier check)     |
 | `pnpm release`        | Create release with release-it |
 
