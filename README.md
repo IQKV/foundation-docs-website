@@ -101,7 +101,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 | `pnpm docs:dev`        | Start development server       |
 | `pnpm docs:build`      | Build for production           |
 | `pnpm docs:preview`    | Preview production build       |
-| `pnpm formatter:write` | Format code with oxfmt      |
+| `pnpm formatter:write` | Format code with oxfmt         |
 | `pnpm lint`            | Lint code (prettier check)     |
 | `pnpm release`         | Create release with release-it |
 
