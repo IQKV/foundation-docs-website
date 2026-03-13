@@ -107,7 +107,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### **Code Quality & Formatting**
 
-- **Prettier** - Code formatting with packagejson plugin
+- **oxfmt** - Code formatting with packagejson plugin
 - **Lint-staged** - Run linters on staged files
 - **EditorConfig** - Consistent editor settings
 
