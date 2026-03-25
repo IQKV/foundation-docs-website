@@ -107,6 +107,7 @@ All docs live under `docs/`. VitePress config is at `docs/.vitepress/config.mts`
 Required pages: `index.md`, `overview.md`, `requirements.md`, `contributing.md`, `support.md`.
 
 When adding new pages:
+
 - Register them in the `sidebar` array in `config.mts`.
 - Add frontmatter (`prev`/`next`) where navigation control is needed.
 - Keep content factual, concise, and technically accurate.
