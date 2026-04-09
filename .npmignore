@@ -1,0 +1,39 @@
+# Version control
+.git/
+.gitattributes
+.gitignore
+
+# CI/CD & GitHub
+.github/
+
+# Dev tooling configs
+.husky/
+.devcontainer/
+.claude/
+.cursor/
+.cursorignore
+.editorconfig
+.prettierignore
+.prettierrc
+.stylelintrc
+commitlint.config.js
+pnpm-workspace.yaml
+pnpm-lock.yaml
+
+# VitePress build cache & output
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Source maps
+*.map
+
+# Logs & local env
+*.log
+*.local
+.env
+
+# Misc
+node_modules/
+dist/
+dist-ssr/
+AGENTS.md
