@@ -27,5 +27,6 @@ dist-ssr
 docs/.vitepress/dist
 docs/.vitepress/cache
 
+.kiro
 CLAUDE.local.md
 .release-it.json
