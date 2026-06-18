@@ -9,17 +9,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
+      { text: "Platform Overview", link: "/platform-overview" },
+      {
+        text: "User Guides",
+        items: [
+          { text: "Tenant App", link: "/tenant-app" },
+          { text: "Platform Admin", link: "/platform-admin" },
+        ],
+      },
       { text: "Overview", link: "/overview" },
     ],
 
     sidebar: [
       {
-        text: "Main",
+        text: "Documentation",
         items: [
-          { text: "Project Overview", link: "/overview" },
-          { text: "Requirements", link: "/requirements" },
-          { text: "Support", link: "/support" },
-          { text: "Contributing Guide", link: "/contributing" },
+          { text: "Platform Overview", link: "/platform-overview" },
+          { text: "Tenant App", link: "/tenant-app" },
+          { text: "Platform Admin", link: "/platform-admin" },
         ],
       },
     ],

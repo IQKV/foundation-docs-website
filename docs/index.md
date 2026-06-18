@@ -3,28 +3,25 @@
 layout: home
 
 hero:
-  name: "IQKV Foundation"
-  text: "Free, open-source, modern Java platform"
-  tagline: Headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
+  name: "IQKV"
+  text: "Multi-tenant SaaS Platform"
+  tagline: Sign up at app.iqkv.site and get your own isolated workspace in seconds.
   actions:
     - theme: brand
-      text: Project Overview
-      link: /overview
+      text: Platform Overview
+      link: /platform-overview
     - theme: alt
-      text: Requirements
-      link: /requirements
+      text: Tenant App Guide
+      link: /tenant-app
     - theme: alt
-      text: Support
-      link: /support
-    - theme: alt
-      text: Contributing Guide
-      link: /contributing
+      text: Platform Admin Guide
+      link: /platform-admin
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Workspaces & teams
+    details: Every signup gets its own isolated workspace. Invite teammates, assign roles, manage memberships — all from one place.
+  - title: Subscriptions & billing
+    details: Pick a plan, subscribe via Stripe, view invoices, and manage payment methods from the self-service billing portal.
+  - title: Platform administration
+    details: Operators get a dedicated admin console at admin.iqkv.site — global user management, org oversight, audit logs, and plan catalog.
 ---

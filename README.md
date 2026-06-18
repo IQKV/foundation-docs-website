@@ -1,100 +1,58 @@
-> ## 🤔 What is this template all about?
->
-> - This template can be used as a base layer for a GitHub profile page.
-> - Make the project easy to maintain with **7 issue templates**.
-> - Quick-start documentation with an extraordinary README structure.
-> - Manage issues with **20 issue labels**.
-> - Make _community healthier_ with all the guides like code of conduct, contributing, support, security...
-> - Learn more with the [official GitHub guide on creating repositories from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-> - To start using it, click **[Use this template](https://github.com/IQKV/foundation-docs-website/generate)** to create your new repository.
+# IQKV Foundation Documentation
+
+Documentation site for the IQKV multi-tenant SaaS platform.
 
 ---
 
-<!-- CUT HERE -->
+## About
 
-# ✨ Documentation
+This repository contains the user-facing documentation for IQKV, built with VitePress.
 
-Getting-started guidance, feature details, and API reference documentation.
+## Documentation structure
 
-### Getting Started
+- **Home** - Landing page with quick links
+- **Platform Overview** - High-level introduction to the platform
+- **Tenant App Guide** - User guide for the tenant-facing app (app.iqkv.site)
+- **Platform Admin Guide** - Operator guide for the admin app (admin.iqkv.site)
 
-> [!TIP]
->
-> #### Install Prerequisites:
->
-> - [Node LTS version](https://nodejs.org/en/blog/release/v22.15.0/)
-> - [pnpm](https://pnpm.io/installation)
-> - [Git](https://git-scm.com/)
+## Getting started
 
-```shell script
+### Prerequisites
+
+- [Node LTS version](https://nodejs.org/)
+- [pnpm](https://pnpm.io/installation)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+```bash
 # Clone the repository
-git clone https://github.com/IQKV/foundation-docs-website.git my-docs
-
-# Navigate to project directory
-cd my-docs
+git clone https://github.com/IQKV/foundation-docs-website.git
+cd foundation-docs-website
 
 # Install dependencies
 pnpm install
-
-# Start development server
-pnpm docs:dev
 ```
 
-### Available Scripts
+### Development
 
-| Command                | Description                 |
-| ---------------------- | --------------------------- |
-| `pnpm docs:dev`        | Start development server    |
-| `pnpm docs:build`      | Build for production        |
-| `pnpm docs:preview`    | Preview production build    |
-| `pnpm formatter:write` | Run formatter over the code |
-| `pnpm lint`            | Lint code                   |
+```bash
+# Start development server
+pnpm docs:dev
+# → http://localhost:5173
+```
 
-### Environment Variables
+### Build for production
 
-| Variable   | Description                | Default       |
-| ---------- | -------------------------- | ------------- |
-| `NODE_ENV` | Defines nodejs environment | `development` |
+```bash
+# Build static site
+pnpm docs:build
 
----
+# Preview production build
+pnpm docs:preview
+```
 
-## 📆 Changelog
-
-Conventional changelog located [here](CHANGELOG.md).
-
-## 👍 Acknowledgments
-
-...
-
-## 🙏 Community & Contributions
-
-Please follow [Contributing](.github/CONTRIBUTING.md) page.
-
-## 📙 Code of Conduct
-
-Please follow [Code of Conduct](.github/CODE_OF_CONDUCT.md) page.
-
-<a name="troubleshooting"></a>
-
-## 💥 Troubleshooting
-
-...
-
-## 📑 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-<!-- CUT HERE -->
-
-## _GitHub Project Tooling Overview_
-
-### **Core Framework & Build Tools**
-
-- **VitePress** - Static site generator for documentation
-- **Vue** - Frontend framework
-- **pnpm** - Package manager with workspace support
-
-### **Development Scripts**
+## Available scripts
 
 | Command                | Description                    |
 | ---------------------- | ------------------------------ |
@@ -102,39 +60,22 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 | `pnpm docs:build`      | Build for production           |
 | `pnpm docs:preview`    | Preview production build       |
 | `pnpm formatter:write` | Format code with oxfmt         |
-| `pnpm lint`            | Lint code (prettier check)     |
+| `pnpm lint`            | Lint code                      |
 | `pnpm release`         | Create release with release-it |
 
-### **Code Quality & Formatting**
+## Tech stack
 
-- **oxfmt** - Code formatting with packagejson plugin
-- **Lint-staged** - Run linters on staged files
-- **EditorConfig** - Consistent editor settings
+- **VitePress** - Static site generator for documentation
+- **Vue** - Frontend framework
+- **pnpm** - Package manager
+- **oxfmt** - Code formatter
+- **Husky** - Git hooks
+- **Commitlint** - Conventional commits
 
-### **Git Workflow & Automation**
+## Contributing
 
-- **Husky** - Git hooks management
-- **Commitlint** - Enforce conventional commits
-- **Commitizen** - Interactive commit message generator
-- **Pre-commit hooks** - Automatic code formatting before commits
+Please follow the [Contributing Guidelines](.github/CONTRIBUTING.md) and [Code of Conduct](.github/CODE_OF_CONDUCT.md).
 
-### **Release Management**
+## License
 
-- **Release-it** - Automated release workflow
-- **Conventional Changelog** - Generate changelog from commits
-- **Release-it-pnpm** - pnpm integration for releases
-
-### **GitHub Workflow Automation**
-
-- **Build validation** - Node.js project build checks
-- **PR title validation** - Enforce conventional PR titles
-- **Commit message validation** - Verify commit format
-- **Template cleanup** - Post-template setup automation
-- **Dependabot** - Automated dependency updates
-
-### **Community & Documentation**
-
-- **Issue templates** (7 templates) - Standardized issue reporting
-- **Issue labels** (20 labels) - Organized issue categorization
-- **Community health files** - Contributing, CoC, Security, Support guides
-- **Dev container** - Containerized development environment
+MIT License - see [LICENSE](LICENSE) for details.
