@@ -1,179 +1,213 @@
-# Tenant App
+# The Tenant App: Your Workspace Home
 
-The tenant app lives at **[app.iqkv.site](https://app.iqkv.site)**. It's where workspace members spend their time — signing in, managing the team, handling billing, and keeping their account in shape.
-
----
-
-## Getting started
-
-### Sign up
-
-Go to [app.iqkv.site](https://app.iqkv.site) and click **Sign up**. Fill in your name, email, and a password. The platform will:
-
-1. Create your account
-2. Provision a new workspace for you
-3. Send a verification email
-
-You'll land in your new workspace as soon as provisioning is done (usually a few seconds).
-
-### Verify your email
-
-Check your inbox for a verification link. Click it to confirm your address. Some features are gated until you verify.
-
-### Sign in
-
-On the sign-in page, enter your email and password. If you belong to more than one workspace, you'll be asked to pick one. You can switch workspaces later without signing out.
-
-### Forgot your password?
-
-Click **Forgot password** on the sign-in page. Enter your email and check your inbox. The reset link is valid for a limited time — request a new one if it expires.
+This is where the magic happens. Whether you're working solo or with a team, [app.iqkv.site](https://app.iqkv.site) gives you everything you need to stay organized and productive.
 
 ---
 
-## Dashboard
+## Let's get you started!
 
-After signing in you land on the **Dashboard**. It shows:
+### Signing up for the first time
 
-- Your workspace name
-- A welcome message
-- Team member count (for organization workspaces)
+Getting started takes less time than making a cup of coffee! Just:
 
-If you're on your **personal workspace**, the dashboard shows a quick-start guide with links to create an organization, update your profile, secure your account, and set up notifications.
+1. Go to [app.iqkv.site](https://app.iqkv.site) and click "Sign up"
+2. Enter your name, email, and a strong password (we'll help you make it secure!)
+3. We'll send you a quick verification email — click the link to confirm it's you
+4. That's it! You're now in your brand-new personal workspace
+
+### Verifying your email
+
+Why do we ask this? Because it unlocks all the features, keeps your account safe, and helps us make sure you can recover your account if you ever need to. It just takes a second, we promise!
+
+### Signing in (easy peasy)
+
+Just enter your email and password, and you're in! If you're part of multiple organizations, we'll ask which workspace you want to jump into — you can switch between them anytime without signing out again.
+
+### Forgot your password? No problem!
+
+We've all been there. Just click "Forgot password" on the sign-in page, enter your email, and we'll send you a link to set a new one. The link doesn't last forever, so don't wait too long to use it!
 
 ---
 
-## Team
+## Your dashboard: Your home base
 
-The **Team** page is where you manage who's in your workspace.
+After you sign in, you'll land right here. It shows:
 
-### Member list
+- Your workspace name front and center
+- A warm welcome to get you started
+- How many team members are in your organization (if you're in one!)
 
-All members are listed with their name, email, role, and join date. Use the search box to find someone by name or email.
+If you're in your personal workspace, we'll give you quick links to create an organization, update your profile, and more.
 
-### Invite a member (owners only)
+---
 
-Click **Invite member** and enter the email address. The invitee gets an email with a link to join. If they don't have an account yet, they'll be prompted to create one during the acceptance flow.
+## Team: Work better together
+
+The Team page is your command center for managing who's in your workspace and what they can do.
+
+### Member list at a glance
+
+See everyone in your workspace with their name, email, role, and when they joined. Use the search bar to find someone quickly — no scrolling through long lists!
+
+### Inviting team members (owners only)
+
+Ready to bring someone on board? Click "Invite member", enter their email, and we'll send them an invitation right away. They can create an account if they don't have one, or accept with their existing account.
 
 ### Pending invitations (owners only)
 
-Below the member list you'll see all invitations that haven't been accepted yet — with their expiry date and current status. Click the eye icon to see details or revoke an invitation before it's accepted.
+See all invitations that haven't been accepted yet, how long they have left, and their status. Need to cancel one? Just click the eye icon and revoke it — easy!
 
 ### Member actions (owners only)
 
-Next to each member name there's an action menu. As the owner you can:
+Right next to each member's name is a menu with superpowers:
 
-- **Change role** — toggle between Owner and Member. Transferring the Owner role to someone else makes them the new owner and drops you to Member.
-- **Ban member** — immediately removes access. The person can no longer sign in to this workspace.
-- **Unban member** — restores access.
+- **Change role**: Toggle between Owner and Member. You can even transfer ownership to someone else (just make sure you trust them first!)
+- **Ban member**: If someone should no longer have access, this revokes it immediately
+- **Unban member**: Changed your mind? Bring them back with one click
 
 ### Organization settings (owners only)
 
-At the top of the Team page there's an **Organization settings** section where you can edit the workspace display name.
+At the top of the Team page, you can edit your organization's display name. Make it something your team will easily recognize!
 
 ---
 
-## Billing
+## Billing: The easy part of running a business
 
-The **Billing** page is available to workspace owners. Members can see it but can't make changes.
+Only workspace owners can make changes here, but everyone can view the current plan.
 
-### Current subscription
+### Your current subscription
 
-Shows your active plan, status, and when the current period ends.
+See exactly what plan you're on, its status, and when your current billing period ends — no surprises.
 
 ### Available plans
 
-A list of all plans you can subscribe to. Each plan shows its price, billing period, and included features. Click **Select** on a plan to go through the Stripe checkout flow.
+Browse all the plans we offer with clear prices, billing periods, and what's included. When you find one you like, click "Select" and we'll walk you through the secure Stripe checkout.
 
-### Billing information
+### Billing info
 
-Edit your billing contact details — company name, address, tax ID, and billing email. This information appears on invoices.
+Update your billing contact details, company name, address, tax ID, and billing email. This is what will show up on your invoices, so keep it accurate!
 
 ### Refunds
 
-A history of any refunds processed for your workspace.
+See any refunds that have been processed for your workspace — a quick history to keep your accounting happy.
 
-### Billing portal
+### Billing portal (your self-service hub)
 
-The **Open billing portal** button takes you to the Stripe Customer Portal where you can:
+Click "Open billing portal" to jump straight to Stripe, where you can:
 
-- View and download past invoices
-- Update your payment method
-- See upcoming charges
+- View and download all your past invoices
+- Update your payment method whenever you need to
+- See what charges are coming up
 
-Your card details are handled entirely by Stripe — the platform never sees or stores them.
+Best of all? We never see or store your card details — that's all handled securely by Stripe!
 
-::: tip Personal workspace
-Your personal workspace doesn't need a subscription. Billing only applies to organization workspaces.
+::: tip Personal workspace is always free
+You don't need a subscription for your personal workspace. Billing only applies when you create or join an organization.
 :::
 
 ---
 
-## Account settings
+## Account settings: Make IQKV yours
 
-Access your account settings from the user menu in the top-right corner.
+Access this anytime from the user menu in the top-right corner.
 
-### General
+### General settings
 
-- **Profile picture** — upload an avatar image
-- **First and last name** — update your display name
-- **Email** — read-only; shown for reference
-- **Language** — sets your preferred language for notifications and emails
-- **Organizations** — a list of all workspaces you belong to
+- **Profile picture**: Upload a photo so your teammates know it's you!
+- **Name**: Update your display name anytime
+- **Email**: This is read-only for security (it's your login!)
+- **Language**: Set your preferred language for notifications and emails
+- **Organizations**: See all the workspaces you're part of
 
-### Security
+### Security settings
 
-- **Roles** — shows the roles you hold in the current workspace
-- **Change password** — enter your current password, then set a new one
-
-  Password rules:
-  - 8 to 128 characters
-  - Must include uppercase and lowercase letters, a digit, and a special character
+- **Roles**: See what roles you have in your current workspace
+- **Change password**: Want to update your password? We'll ask for your current one first to keep things safe
+  - Quick reminder: Use 8-128 characters, mix uppercase, lowercase, numbers, and special characters!
 
 ### Notifications
 
-A paginated list of all in-app notifications sent to you. From here you can:
+Your personal inbox for everything happening on IQKV. Here you can:
 
-- **Mark as read** — individually or all at once
-- **Delete** — remove one notification or clear them all
+- Mark notifications as read (one by one or all at once)
+- Delete old notifications you don't need anymore
 
-Notifications cover events like received invitations, membership changes, and account activity.
+You'll get notifications for things like invitations, membership changes, and important account updates — nothing spammy, we promise!
 
 ### Organizations
 
-A table of every workspace you're a member of, showing the workspace name, its unique key, your role, and current status. Owners can click the edit icon to switch into that workspace's context for management.
+A quick table of every workspace you're part of, with the workspace name, unique key, your role, and status. If you're an owner, you can click the edit icon to jump straight into that workspace's settings.
 
-If you haven't created an organization yet, this page shows an empty state with a **Create Organization** button.
-
----
-
-## Creating an organization
-
-You can create a new organization workspace from two places:
-
-- The dashboard welcome card (personal workspace)
-- Settings → Organizations → **Create Organization**
-
-After creation, you become its owner and can start inviting people right away.
+If you haven't created an organization yet, we'll show you an empty state with a big "Create Organization" button to help you get started.
 
 ---
 
-## Switching workspaces
+## Creating an organization: Time to collaborate!
 
-Use the workspace switcher in the sidebar to jump between any workspace you belong to. The switch is instant and your session stays active — no need to sign in again.
+Ready to bring your team together? You can create an organization in two places:
 
----
+- From the welcome card on your personal workspace dashboard
+- From Settings → Organizations → click "Create Organization"
 
-## Accepting an invitation
-
-If someone invites you, you'll get an email with a link. Clicking it opens a preview page that shows who invited you and to which workspace. Hit **Accept** to join.
-
-- If you already have an account, you'll be signed in automatically.
-- If you're new, you'll create an account first and then be added to the workspace.
+As soon as you create it, you're the owner and can start inviting people right away!
 
 ---
 
-## Session and security notes
+## Switching workspaces: Seamless multitasking
 
-- Your session expires after **30 minutes of inactivity**. You'll be signed out automatically.
-- Tokens are refreshed silently in the background — you usually won't notice unless your session has truly expired.
-- Signing out on one device does not sign out other active sessions. Use **Sign out of all devices** (in security settings) if you need to revoke all sessions at once.
+Got multiple workspaces? No problem! Use the workspace switcher in the sidebar to jump between them instantly — your session stays active, no need to sign in again.
+
+---
+
+## Accepting an invitation: Join the fun!
+
+If someone invites you to their workspace, you'll get an email with a link. Click it, and you'll see a preview page showing who invited you and where you're going. Hit "Accept" and you're in!
+
+- Already have an account? You'll sign in automatically and join the workspace
+- New to IQKV? You'll create an account first, then be added to the workspace
+
+---
+
+## Session & security notes (quick refresher)
+
+We take your security seriously:
+
+- Your session will expire automatically after 30 minutes of inactivity — don't worry, we'll refresh tokens in the background if you're active!
+- Signing out on one device doesn't sign you out everywhere else — use "Sign out of all devices" in Security settings if you need to revoke access everywhere
+
+---
+
+## Useful tips & best practices
+
+### Getting organized
+
+- Create an organization workspace for your team — it's the best way to collaborate
+- Use a clear, friendly display name for your organization so members can find it easily
+- Keep your team list clean — remove people who no longer need access
+
+### Staying secure
+
+- Always verify your email address — it unlocks all the features!
+- Use a strong, unique password for IQKV (don't reuse the same one from other sites!)
+- If you think someone has accessed your account without permission, sign out of all devices right away
+- Never share your password with anyone — not even us!
+
+### Managing billing
+
+- Download your invoices regularly for your accounting records
+- Keep your billing information up to date to avoid any service interruptions
+- Review your plan periodically to make sure it still fits your team's needs — you can upgrade or downgrade anytime!
+- Remember: You can manage payment methods directly in the Stripe billing portal
+
+### Working with your team
+
+- Double-check email addresses before sending invitations — typos mean people won't get them!
+- Revoke pending invitations if they're no longer needed (keeps things tidy!)
+- Be thoughtful about role assignments — only give Owner access to people who truly need it
+- You can always transfer ownership to someone else if you need to
+
+### Keeping up with notifications
+
+- Check your notifications regularly — they have important updates about your workspace
+- Mark things as read to keep your inbox clean and easy to scan
+- Delete old notifications you don't need anymore

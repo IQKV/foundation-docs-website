@@ -4,6 +4,9 @@
   "description": "Project documentation powered by Vitepress.",
   "type": "module",
   "scripts": {
+    "ci": "pnpm ci:lint && pnpm ci:test",
+    "ci:lint": "pnpm lint",
+    "ci:test": "pnpm docs:build",
     "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs",
