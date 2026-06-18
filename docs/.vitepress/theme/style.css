@@ -1,0 +1,41 @@
+:root {
+  --vp-c-brand-1: #3b4ef0; /* blue-6 from foundation-ui-app */
+  --vp-c-brand-2: #5465f5; /* blue-5 */
+  --vp-c-brand-3: #2c3dd4; /* blue-7 */
+
+  /* Gray scale (slate gray from foundation-ui-app) */
+  --vp-c-gray-1: #f8f9fb;
+  --vp-c-gray-2: #f1f3f6;
+  --vp-c-gray-3: #e4e8ef;
+  --vp-c-gray-4: #d0d6e2;
+  --vp-c-gray-5: #b0bac9;
+  --vp-c-gray-6: #8896aa;
+  --vp-c-gray-7: #5e6e84;
+  --vp-c-gray-8: #3d4f63;
+  --vp-c-gray-9: #243345;
+  --vp-c-gray-10: #111c2b;
+
+  /* Light mode colors */
+  --vp-c-bg: #f4f6f9;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-bg-soft: #ffffff;
+  --vp-c-bg-mute: #f1f3f6;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-elv-up: #ffffff;
+  --vp-c-bg-elv-down: #f1f3f6;
+  --vp-c-divider: #e4e8ef;
+  --vp-c-divider-light: #d0d6e2;
+}
+
+.dark {
+  /* Dark mode colors from foundation-ui-app */
+  --vp-c-bg: #0f1621;
+  --vp-c-bg-alt: #151d2b;
+  --vp-c-bg-soft: #1a2436;
+  --vp-c-bg-mute: #243345;
+  --vp-c-bg-elv: #1a2436;
+  --vp-c-bg-elv-up: #1a2436;
+  --vp-c-bg-elv-down: #151d2b;
+  --vp-c-divider: rgba(255, 255, 255, 0.06);
+  --vp-c-divider-light: rgba(255, 255, 255, 0.1);
+}

@@ -19,7 +19,7 @@ Getting started takes less time than making a cup of coffee! Just:
 
 Why do we ask this? Because it unlocks all the features, keeps your account safe, and helps us make sure you can recover your account if you ever need to. It just takes a second, we promise!
 
-### Signing in (easy peasy)
+### Signing in
 
 Just enter your email and password, and you're in! If you're part of multiple organizations, we'll ask which workspace you want to jump into — you can switch between them anytime without signing out again.
 

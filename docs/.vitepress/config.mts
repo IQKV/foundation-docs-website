@@ -5,6 +5,7 @@ export default defineConfig({
   title: "IQKV Foundation",
   description:
     "Free, open-source, API-first, headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.",
+  theme: "./theme",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -17,7 +18,6 @@ export default defineConfig({
           { text: "Platform Admin", link: "/platform-admin" },
         ],
       },
-      { text: "Overview", link: "/overview" },
     ],
 
     sidebar: [
