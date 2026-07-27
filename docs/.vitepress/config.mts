@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "IQ Key Value Docs",
+  title: "iQ Key Value Docs",
   description:
     "Free, open-source, SaaS platform built using Spring Boot, Rabbitmq, Postgresql, and ReactJs.",
   theme: "./theme",
@@ -40,7 +40,7 @@ export default defineConfig({
     ],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2026 IQ Key Value Platform",
+      copyright: "Copyright © 2026 iQ Key Value Platform",
     },
 
     editLink: {

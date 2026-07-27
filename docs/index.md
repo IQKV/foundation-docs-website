@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "IQ Key Value"
+  name: "iQ Key Value"
   text: "Your SaaS Launchpad"
   tagline: "From idea to fully-functional business in minutes — not months. IQKV gives you the solid foundation you need so you can focus on what matters: your customers and your vision."
   actions:
