@@ -1,6 +1,6 @@
 # The Platform Admin Console: Your Control Center
 
-Welcome to [admin.iqkv.site](https://admin.iqkv.site) — your one-stop shop for managing your entire IQKV platform. This is where operators like you keep things running smoothly, help your users, and watch your business grow.
+Welcome to [admin.iqkv.site](https://admin.iqkv.site) — your one-stop shop for managing your entire iQ Key Value Platform. This is where operators like you keep things running smoothly, help your users, and watch your business grow.
 
 ---
 
