@@ -1,4 +1,4 @@
-# IQKV Foundation Documentation
+# iQKV Foundation Documentation
 
 Documentation site for the IQKV multi-tenant SaaS platform.
 
