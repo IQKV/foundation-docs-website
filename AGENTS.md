@@ -142,6 +142,7 @@ Format: `type(scope): subject`
   - ❌ `fix(sidebar): update active class logic`
 
 Examples:
+
 - `feat(sidebar): add collapsible section for API reference`
 - `fix(config): build fails when BASE_URL contains trailing slash`
 - `chore(deps): update vitepress to 1.6.4`
