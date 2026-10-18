@@ -204,14 +204,14 @@ A task is evaluated as done only when all of the following hold:
 
 ### Required gates by change type
 
-| Change type | Required gates |
-| --- | --- |
-| Any change | `pnpm formatter:check` |
-| Documentation content (`docs/**/*.md`) | `pnpm docs:build` must succeed |
-| New page added | Registered in the `sidebar` array in `docs/.vitepress/config.mts`, then `pnpm docs:build` |
-| Vue component, theme or CSS change | `pnpm docs:build`, then `pnpm lint:stylelint` |
-| Config or dependency change | Confirm the dependency with the user first, then `pnpm docs:build` |
-| Wording-only edit | `pnpm formatter:check` |
+| Change type                            | Required gates                                                                            |
+| -------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Any change                             | `pnpm formatter:check`                                                                    |
+| Documentation content (`docs/**/*.md`) | `pnpm docs:build` must succeed                                                            |
+| New page added                         | Registered in the `sidebar` array in `docs/.vitepress/config.mts`, then `pnpm docs:build` |
+| Vue component, theme or CSS change     | `pnpm docs:build`, then `pnpm lint:stylelint`                                             |
+| Config or dependency change            | Confirm the dependency with the user first, then `pnpm docs:build`                        |
+| Wording-only edit                      | `pnpm formatter:check`                                                                    |
 
 ### Ordering
 
