@@ -10,44 +10,44 @@ Content is plain Markdown under `docs/`; navigation, search and footer come from
 
 ### Implemented today
 
-| Area                    | What it does                                                                                                                |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Home**                | VitePress home layout — hero, three value cards, and CTAs into the platform overview and the two app guides                  |
-| **Platform overview**   | Platform introduction: the two apps and who they are for, tenant app capabilities, admin capabilities, workspace models     |
-| **Tenant app guide**    | End-user walkthrough of `app.iqkv.site` — sign-up and email verification, sign-in and workspace selection, password reset, dashboard |
-| **Platform admin guide** | Operator manual for `admin.iqkv.site` — operator sign-in and session rules, dashboard stats, user and organization management |
-| **Navigation**          | Top nav (Home, Platform Overview, User Guides dropdown, demo site) and a Documentation sidebar, both defined in `config.mts` |
-| **Search**              | Built-in VitePress local (offline) search provider — no external service                                              |
-| **Edit links**          | "Edit this page" links point at this repository                                                                         |
-| **Theme**               | Default theme with a local stylesheet override layer (`docs/.vitepress/theme/`)                                          |
-| **Delivery**            | Static output in `docs/.vitepress/dist/`, served by the root `Dockerfile` (nginx)                                       |
-| **Tooling**             | Husky + lint-staged pre-commit hooks, commitlint, release-it with conventional changelog                                |
+| Area                     | What it does                                                                                                                         |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Home**                 | VitePress home layout — hero, three value cards, and CTAs into the platform overview and the two app guides                          |
+| **Platform overview**    | Platform introduction: the two apps and who they are for, tenant app capabilities, admin capabilities, workspace models              |
+| **Tenant app guide**     | End-user walkthrough of `app.iqkv.site` — sign-up and email verification, sign-in and workspace selection, password reset, dashboard |
+| **Platform admin guide** | Operator manual for `admin.iqkv.site` — operator sign-in and session rules, dashboard stats, user and organization management        |
+| **Navigation**           | Top nav (Home, Platform Overview, User Guides dropdown, demo site) and a Documentation sidebar, both defined in `config.mts`         |
+| **Search**               | Built-in VitePress local (offline) search provider — no external service                                                             |
+| **Edit links**           | "Edit this page" links point at this repository                                                                                      |
+| **Theme**                | Default theme with a local stylesheet override layer (`docs/.vitepress/theme/`)                                                      |
+| **Delivery**             | Static output in `docs/.vitepress/dist/`, served by the root `Dockerfile` (nginx)                                                    |
+| **Tooling**              | Husky + lint-staged pre-commit hooks, commitlint, release-it with conventional changelog                                             |
 
 ## Pages
 
-| Page               | Source                    | Description                                                             |
-| ------------------ | ------------------------- | ----------------------------------------------------------------------- |
-| Home               | `docs/index.md`           | VitePress home layout — hero and feature cards                          |
-| Platform overview  | `docs/platform-overview.md` | Platform introduction, the two apps, and workspace models            |
-| Tenant app         | `docs/tenant-app.md`      | End-user guide for `app.iqkv.site`                                      |
-| Platform admin     | `docs/platform-admin.md`  | Operator guide for `admin.iqkv.site`                                    |
+| Page              | Source                      | Description                                               |
+| ----------------- | --------------------------- | --------------------------------------------------------- |
+| Home              | `docs/index.md`             | VitePress home layout — hero and feature cards            |
+| Platform overview | `docs/platform-overview.md` | Platform introduction, the two apps, and workspace models |
+| Tenant app        | `docs/tenant-app.md`        | End-user guide for `app.iqkv.site`                        |
+| Platform admin    | `docs/platform-admin.md`    | Operator guide for `admin.iqkv.site`                      |
 
 Every page is Markdown under `docs/`, and each one is registered in the `sidebar` array in `docs/.vitepress/config.mts`. URLs keep the `.html` suffix (`cleanUrls: false`).
 
 ## Feature status
 
-| Feature                          | Status |
-| -------------------------------- | ------ |
-| Home landing page                | Done   |
-| Platform overview                | Done   |
-| Tenant app guide                 | Done   |
-| Platform admin guide             | Done   |
-| Top nav and sidebar              | Done   |
-| Local search                     | Done   |
-| GitHub edit links                | Done   |
-| Custom stylesheet overrides      | Done   |
-| Dev container (Node 22)          | Done   |
-| Static build + nginx image       | Done   |
+| Feature                           | Status |
+| --------------------------------- | ------ |
+| Home landing page                 | Done   |
+| Platform overview                 | Done   |
+| Tenant app guide                  | Done   |
+| Platform admin guide              | Done   |
+| Top nav and sidebar               | Done   |
+| Local search                      | Done   |
+| GitHub edit links                 | Done   |
+| Custom stylesheet overrides       | Done   |
+| Dev container (Node 22)           | Done   |
+| Static build + nginx image        | Done   |
 | Release automation (`release-it`) | Done   |
 
 ## Content authoring
